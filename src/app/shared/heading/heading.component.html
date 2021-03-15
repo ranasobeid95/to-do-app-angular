@@ -1,0 +1,5 @@
+<header class="header">
+    <span class="date">{{today.toLocaleDateString("en", option)}}</span>
+    <span *ngIf="!numTask" class="numTasks">There are no tasks</span>
+    <span *ngIf="numTask" class="numTasks">{{numTask}} Tasks</span>
+</header>

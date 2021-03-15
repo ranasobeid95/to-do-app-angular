@@ -1,0 +1,7 @@
+<app-heading [numTask]="todos.length"></app-heading>
+<div class="inputField">
+    <input #newTask>
+    <button (click)="addNewTask(newTask.value)">Add Task</button>
+</div>
+<app-todos [todos]="todos"></app-todos>
+<router-outlet></router-outlet>

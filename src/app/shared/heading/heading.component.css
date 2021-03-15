@@ -1,0 +1,22 @@
+
+.header {
+    order: 1;
+    height: 13vh;
+    padding: 60px 80px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: linear-gradient(
+      141.28deg,
+      #c07eec 35.78%,
+      rgba(117, 75, 197, 0.443) 109%,
+      rgba(92, 50, 126, 0.14) 123.57%,
+      rgba(200, 151, 233, 0.636) 134.09%,
+      rgba(47, 7, 59, 0) 134.1%
+    );
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.18);
+  }
+  

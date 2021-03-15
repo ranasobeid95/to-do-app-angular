@@ -1,0 +1,35 @@
+.inputField{
+    /* align-items: center;
+    margin: 30px; */
+    width: 90%;
+    margin: 0 auto;
+}
+img{
+    width: 50%;
+    height: 100px;
+}
+input {
+    width: 50%;
+    height: 9vh;
+    margin: 15px 0;
+    padding: 15px 20px;
+    border: 1px solid rgba(177, 177, 177, 0.8);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.959);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+button {
+    margin: 20px;
+    width: 15%;
+    height: 9vh;
+    border: 1px solid rgba(177, 177, 177, 0.8);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: rgba(90, 11, 86, 0.959);
+    color: white;
+
+
+}
