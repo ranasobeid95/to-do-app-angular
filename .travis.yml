@@ -5,15 +5,18 @@ language: node_js
 node_js:
   - "10"
 
+dist: xenial
+
 addons:
+  apt:
+    packages:
+      - dpkg
   chrome: stable
 
 cache:
   directories:
     - ./node_modules
-before_script:
-  - chromedriver-update 89.0.4389.90
-
+    
 install:
   - npm install
 
