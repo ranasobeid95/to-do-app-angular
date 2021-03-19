@@ -1,11 +1,9 @@
-dist: trusty
+dist: xenial
 os: linux
 
 language: node_js
 node_js:
-  - "10"
-
-dist: xenial
+  - "14.16.0"
 
 addons:
   apt:
@@ -16,7 +14,7 @@ addons:
 cache:
   directories:
     - ./node_modules
-    
+
 install:
   - npm install
 
