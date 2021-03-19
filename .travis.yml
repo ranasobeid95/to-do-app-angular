@@ -11,9 +11,7 @@ addons:
 cache:
   directories:
     - ./node_modules
-before_script:
-  - chromedriver-update 89.0.4389.90
-
+    
 install:
   - npm install
 
