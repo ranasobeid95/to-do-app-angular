@@ -1,7 +1,9 @@
-<li>
-    {{index+1}}. {{todo.text}} 
+<ng-container *ngIf="todo">
+  <li>
+    {{ index + 1 }}. {{ todo.text }}
     <!-- <span>
-        <i (click)="deleteTask()" class="far fa-trash-alt"></i>
-        <i class="fas fa-check"></i>
-    </span> -->
-</li>
+            <i (click)="deleteTask()" class="far fa-trash-alt"></i>
+            <i class="fas fa-check"></i>
+        </span> -->
+  </li>
+</ng-container>
