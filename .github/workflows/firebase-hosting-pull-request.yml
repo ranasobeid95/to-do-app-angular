@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm run deploy
+      - run: npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TO_DO_D4DF7 }}'
-          projectId: to-do-d4df7
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_COUNTRIES_PROJECT_F9AEB }}'
+          projectId: countries-project-f9aeb
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
